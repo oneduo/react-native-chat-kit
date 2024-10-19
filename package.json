@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "A customizable and robust Chat UI kit for React Native and Expo",
   "source": "./src/index.tsx",
+  "types": "./lib/typescript/commonjs/src/index.d.ts",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
   "exports": {
@@ -99,11 +100,13 @@
     "@types/react": "^18.2.44"
   },
   "peerDependencies": {
-    "lucide-react-native": "^0.453.0",
-    "nativewind": "^4.0.0",
     "react": "*",
     "react-native": "*",
-    "zeego": ">=2.0.0"
+    "lucide-react-native": "*",
+    "nativewind": "^4.0.0",
+    "zeego": "^2.0.0",
+    "react-native-gesture-handler": "^2.18.0",
+    "react-native-reanimated": "^3.0.0"
   },
   "packageManager": "yarn@3.6.1",
   "jest": {

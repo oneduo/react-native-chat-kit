@@ -1,6 +1,6 @@
 {
-  "name": "react-native-chat-kit",
-  "version": "0.1.0",
+  "name": "@oneduo/react-native-chat-kit",
+  "version": "0.2.0",
   "description": "A customizable and robust Chat UI kit for React Native and Expo",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",

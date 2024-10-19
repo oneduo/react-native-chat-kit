@@ -131,16 +131,6 @@
         "--access public",
         "--provenance"
       ]
-    },
-    "github": {
-      "autoGenerate": true,
-      "release": true,
-      "releaseName": "v${version}"
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "angular"
-      }
     }
   },
   "eslintConfig": {

@@ -18,9 +18,7 @@ jobs:
 
 name: Release
 
-on:
-  release:
-    types: [ published ]
+on: workflow_dispatch
 
 permissions:
   contents: write

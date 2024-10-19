@@ -1,6 +1,6 @@
 {
   "name": "@oneduo/react-native-chat-kit",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "A customizable and robust Chat UI kit for React Native and Expo",
   "source": "./src/index.tsx",
   "types": "./lib/typescript/commonjs/src/index.d.ts",
@@ -131,6 +131,16 @@
         "--access public",
         "--provenance"
       ]
+    },
+    "github": {
+      "autoGenerate": true,
+      "release": true,
+      "releaseName": "v${version}"
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular"
+      }
     }
   },
   "eslintConfig": {

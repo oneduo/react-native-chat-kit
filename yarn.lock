@@ -2607,11 +2607,13 @@ __metadata:
     typescript: ^5.2.2
     zeego: ^2.0.1
   peerDependencies:
-    lucide-react-native: ^0.453.0
+    lucide-react-native: "*"
     nativewind: ^4.0.0
     react: "*"
     react-native: "*"
-    zeego: ">=2.0.0"
+    react-native-gesture-handler: ^2.18.0
+    react-native-reanimated: ^3.0.0
+    zeego: ^2.0.0
   languageName: unknown
   linkType: soft
 

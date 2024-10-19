@@ -41,11 +41,15 @@
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli lib",
-    "prepare": "bob build",
+    "build": "bob build",
     "release": "release-it"
   },
   "keywords": [
     "react-native",
+    "chat",
+    "ui",
+    "kit",
+    "nativewind",
     "ios",
     "android"
   ],
@@ -119,10 +123,13 @@
       "tagName": "v${version}"
     },
     "npm": {
-      "publish": true
+      "publish": true,
+      "publishArgs": ["--access public", "--provenance"]
     },
     "github": {
-      "release": true
+      "autoGenerate": true,
+      "release": true,
+      "releaseName": "v${version}"
     },
     "plugins": {
       "@release-it/conventional-changelog": {

@@ -38,7 +38,7 @@ jobs:
       - name: Run unit tests
         run: yarn test --maxWorkers=2 --coverage
 
-  build-library:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -48,4 +48,4 @@ jobs:
         uses: ./.github/actions/setup
 
       - name: Build package
-        run: yarn prepare
+        run: yarn build
